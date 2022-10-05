@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>I'm a senior undergraduate student at Illinois Institute of Technology. I am proficient at Java, Python, Web Development, SQL, noSQL and various other aspects of software development.</h1>
   </div>
 </template>
 
