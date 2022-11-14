@@ -1,9 +1,7 @@
-<script setup>
-
-</script>
-
 <template>
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+      <div class="app">
+            <router-view />
+      </div>
 </template>
 
 <style lang="scss">
