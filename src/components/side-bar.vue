@@ -2,16 +2,17 @@
 <template>
 	<aside :class="`${is_expanded ? 'is-expanded' : ''}`">
 		<div class="logo">
-            <router-link to="/" class="button">
                 <img :src="logoURL" alt="Vue" /> 
-			</router-link>
 		</div>
 		<div class="menu-toggle-wrap">
 			<button class="menu-toggle" @click="ToggleMenu">
 				<span class="material-icons">keyboard_double_arrow_right</span>
 			</button>
 		</div>
-		<div class="menu">
+		<div class="menu"><router-link to="/" class="button">
+				<span class="material-icons">home</span>
+				<span class="text">Home</span>
+			</router-link>
 			<router-link to="/projects" class="button">
 				<span class="material-icons">chrome_reader_mode</span>
 				<span class="text">Projects</span>
@@ -24,17 +25,19 @@
 				<span class="material-icons">email</span>
 				<span class="text">Contact</span>
 			</router-link>
-            <router-link to="/about" class="button">
-				<span class="material-icons">description</span>
-				<span class="text">Github</span>
-			</router-link>
-			<router-link to="/contact" class="button">
-				<Icon icon="mdi:linkedin" />
-				<span class="text">Linkedin</span>
-			</router-link>
+			
 		</div>
 
 		<div class="flex"></div>
+
+		<div align-items="center" class="social">
+			<a href="https://github.com/MichalJanMalek" class="button">
+				<Icon class="material-icons" inline icon="mdi:github" style="color: white;" width="35"  height="35"/>
+			</a>
+			<a href="https://www.linkedin.com/in/michaljmalek/" class="button">
+				<Icon class="material-icons" inline icon="mdi:linkedin" style="color: white;" width="35"  height="35"/>
+			</a>
+		</div>
 	</aside>
 </template>
 
@@ -64,6 +67,9 @@ aside {
 	transition: 0.2s ease-in-out;
 	.flex {
 		flex: 1 1 0%;
+	}
+	.social {
+		margin: auto;
 	}
 	.logo {
 		margin-bottom: 1rem;

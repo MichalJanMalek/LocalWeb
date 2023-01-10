@@ -13,8 +13,8 @@ import Sidebar from './components/side-bar.vue'
 
 <style lang="scss">
 :root {
-	--primary: #4ade80;
-	--primary-alt: #22c55e;
+	--primary: #dea54a;
+	--primary-alt: #dea54a;
 	--grey: #64748b;
 	--dark: #1e293b;
 	--dark-alt: #334155;
