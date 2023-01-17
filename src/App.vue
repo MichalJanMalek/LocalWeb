@@ -13,13 +13,13 @@ import Sidebar from './components/side-bar.vue'
 
 <style lang="scss">
 :root {
-	--primary: #dea54a;
-	--primary-alt: #dea54a;
-	--grey: #64748b;
-	--dark: #1e293b;
-	--dark-alt: #334155;
-	--light: #f1f5f9;
-	--sidebar-width: 300px;
+	--primary: #ff0066; //3500d3 //ff005d
+	--primary-alt: #820030; //240090
+	--grey: #718692;
+	--dark: #282828; //282828
+	--dark-alt: #ffffff;//e3e2df
+	--light: #ffffff;
+	--sidebar-width: 200px;
 }
 * {
 	margin: 0;

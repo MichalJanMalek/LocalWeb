@@ -2,7 +2,7 @@
 <template>
 	<aside :class="`${is_expanded ? 'is-expanded' : ''}`">
 		<div class="logo">
-                <img :src="logoURL" alt="Vue" /> 
+                <img :src="logoURL" alt="MM" /> 
 		</div>
 		<div class="menu-toggle-wrap">
 			<button class="menu-toggle" @click="ToggleMenu">
@@ -14,16 +14,12 @@
 				<span class="text">Home</span>
 			</router-link>
 			<router-link to="/projects" class="button">
-				<span class="material-icons">chrome_reader_mode</span>
+				<span class="material-icons">description</span>
 				<span class="text">Projects</span>
 			</router-link>
 			<router-link to="/about" class="button">
-				<span class="material-icons">description</span>
+				<span class="material-icons">person</span>
 				<span class="text">About</span>
-			</router-link>
-			<router-link to="/contact" class="button">
-				<span class="material-icons">email</span>
-				<span class="text">Contact</span>
 			</router-link>
 			
 		</div>
@@ -73,8 +69,9 @@ aside {
 	}
 	.logo {
 		margin-bottom: 1rem;
+		margin-left: -1rem;
 		img {
-			width: 2rem;
+			width: 4rem;
 		}
 	}
 	.menu-toggle-wrap {
