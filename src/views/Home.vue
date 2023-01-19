@@ -14,6 +14,8 @@ main, .home-page{
 .home_title{
 	text-align: center;
 	padding-bottom: 1rem;
+	text-size : 7rem;
+	font-family: 'Josefin Sans', sans-serif;
 }
 .text{
 	text-align: left;
