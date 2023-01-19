@@ -11,22 +11,26 @@
 		</div>
 		<div class="menu"><router-link to="/" class="button">
 				<span class="material-icons">home</span>
-				<span class="text">Home</span>
+				<span class="text">HOME</span>
 			</router-link>
+			<!--
 			<router-link to="/projects" class="button">
 				<span class="material-icons">description</span>
-				<span class="text">Projects</span>
-			</router-link>
+				<span class="text">PROJECTS</span>
+			</router-link>-->
 			<router-link to="/about" class="button">
 				<span class="material-icons">person</span>
-				<span class="text">About</span>
+				<span class="text">ABOUT</span>
 			</router-link>
 			
 		</div>
 
 		<div class="flex"></div>
-
+		
 		<div align-items="center" class="social">
+			<a :href="('mailto:' + 'malek.michal.j@gmail.com')" class="button">
+				<Icon class="material-icons" inline icon="mdi:email" style="color: white;" width="35"  height="35"/>
+			</a>
 			<a href="https://github.com/MichalJanMalek" class="button">
 				<Icon class="material-icons" inline icon="mdi:github" style="color: white;" width="35"  height="35"/>
 			</a>
@@ -66,6 +70,7 @@ aside {
 	}
 	.social {
 		margin: auto;
+		padding-bottom: 1rem;
 	}
 	.logo {
 		margin-bottom: 1rem;

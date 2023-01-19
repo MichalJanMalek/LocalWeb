@@ -4,8 +4,12 @@
 			<h1 class="home_title">Michal Malek</h1>
 			<p class = "text">This is my personal website to showcase my projects and to learn more about me. </p>
 		</div>	
+		<div>
+			
+		</div>
     </main>
 </template>
+
 <style lang="scss" scoped>
 main, .home-page{
 	background-color: var(--primary);
